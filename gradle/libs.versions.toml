@@ -1,13 +1,16 @@
 [versions]
 paper = "26.1.2.build.+"
+commandapi = "9.5.1"
 
 
 [libraries]
 paper = { module = "io.papermc.paper:paper-api", version.ref = "paper" }
+commandapi = { module = "dev.jorel:commandapi-bukkit-shade", version.ref = "commandapi"}
 
 
 [bundles]
 
 minecraft-paper = [
-    "paper"
+    "paper",
+    "commandapi"
 ]
