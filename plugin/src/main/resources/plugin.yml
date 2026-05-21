@@ -1,0 +1,17 @@
+name: UniversalRebirth-Core
+version: '${version}'
+
+main: de.universalrebirth.plugin.UniversalRebirthPlugin
+api-version: '1.21'
+
+load: POSTWORLD
+
+authors:
+  - PixelPlayer Studios
+
+website: https://www.pixelplayer-studios.de/jfrog-artifactory
+
+commands:
+  heal:
+    description: "Heals the player"
+    usage: "/heal"

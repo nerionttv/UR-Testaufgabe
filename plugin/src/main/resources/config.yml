@@ -1,0 +1,9 @@
+command: "heal"
+command_description: "Heals the player"
+command_permission: "core.heal"
+command_aliases:
+  - "hp"
+  - "h"
+
+command_reply_only_players: "§cOnly players can use this command."
+command_reply_success: "§aYou have been healed!"
