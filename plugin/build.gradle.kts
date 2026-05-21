@@ -1,3 +1,5 @@
+import com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar.Companion.shadowJar
+
 plugins {
     id("java-library")
     id("com.gradleup.shadow") version "9.4.1"
@@ -12,8 +14,10 @@ repositories {
 dependencies {
     compileOnly(libs.paper)
 
+    implementation(libs.commandapi)
+
     implementation(files(
-        "/home/ppstudiosdev/WebstormProjects/UR-Testaufgabe-Framework/build/libs/UR-Testaufgabe-Framework-1.0-SNAPSHOT.jar"
+        "../UR-Testaufgabe-Framework/build/libs/UR-Testaufgabe-Framework-1.0-SNAPSHOT.jar"
     ))
 }
 
@@ -50,7 +54,7 @@ tasks {
      * Run Paper server
      */
     runServer {
-        minecraftVersion("1.21.1") // FIXED (26.1.2 is invalid)
+        minecraftVersion("26.1.2") // FIXED (26.1.2 is invalid)
 
         jvmArgs("-Xms2G", "-Xmx2G")
     }

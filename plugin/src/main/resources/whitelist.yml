@@ -1,0 +1,12 @@
+# Whitelist Configuration File
+# Automatically managed by UniversalRebirth-Core
+
+settings:
+  enabled: false  # Enable whitelist mode
+
+whitelisted:
+  # Example entry (auto-populated)
+  # 550e8400-e29b-41d4-a716-446655440000:
+  #   name: "PlayerName"
+  #   addedAt: 1234567890000
+  #   addedBy: "AdminName"

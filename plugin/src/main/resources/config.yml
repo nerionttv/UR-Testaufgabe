@@ -1,9 +1,28 @@
-command: "heal"
-command_description: "Heals the player"
-command_permission: "core.heal"
-command_aliases:
-  - "hp"
-  - "h"
+# UniversalRebirth-Core Configuration
 
-command_reply_only_players: "§cOnly players can use this command."
-command_reply_success: "§aYou have been healed!"
+# Admin Management Settings
+admin:
+  logging:
+    enabled: true
+  ban:
+    enabled: true
+  mute:
+    enabled: true
+  whitelist:
+    enabled: false
+  warn:
+    enabled: true
+    max-warnings: 5
+
+messages:
+  # Heal Command
+  only-player: "&cOnly players can use this command."
+  no-permission: "&cYou do not have permission."
+  no-spectator: "&cYou cannot heal in spectator mode."
+  heal-success: "&aYou have been healed."
+
+  # Ban/Mute/Warning Messages
+  ban-message: "&cYou have been banned!"
+  mute-message: "&cYou are muted!"
+  whitelist-message: "&cYou are not whitelisted!"
+  welcome-message: "&a✓ Welcome!"

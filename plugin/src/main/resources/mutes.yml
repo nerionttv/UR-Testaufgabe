@@ -1,0 +1,11 @@
+# Mutes Configuration File
+# Automatically managed by UniversalRebirth-Core
+
+mutes:
+  # Example mute entry (auto-populated)
+  # 550e8400-e29b-41d4-a716-446655440000:
+  #   name: "PlayerName"
+  #   reason: "Spam"
+  #   admin: "AdminName"
+  #   timestamp: 1234567890000
+  #   expiresAt: 1234567999999  # 0 = permanent

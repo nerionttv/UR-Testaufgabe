@@ -1,0 +1,10 @@
+# Bans Configuration File
+# Automatically managed by UniversalRebirth-Core
+
+bans:
+  # Example ban entry (auto-populated)
+  # 550e8400-e29b-41d4-a716-446655440000:
+  #   name: "PlayerName"
+  #   reason: "Hacking"
+  #   admin: "AdminName"
+  #   timestamp: 1234567890000
